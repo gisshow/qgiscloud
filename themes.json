@@ -303,7 +303,7 @@
             "title": "Open Street Map",
             "type": "osm",
             "source": "osm",
-            "thumbnail": "./assets/qwc2/img/mapthumbs/mapnik.jpg",
+            "thumbnail": "img/mapthumbs/mapnik.jpg",
             "attribution":
             {
                 "Title": "\u00a9 OpenStreetMap contributors",
