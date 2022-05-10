@@ -1,0 +1,314 @@
+{
+    "themes":
+    {
+        "title": "root",
+        "items": [
+        {
+            "url": "https://qgiscloud.com/Winabedgb/QField_everzwijn_WBEDGB_2022_cloud/wms",
+            "id": "QField_everzwijn_WBEDGB_2022_cloud",
+            "name": "",
+            "title": "QField_everzwijn_WBEDGB_2022 (QFieldCloud)",
+            "version": "1.1.1",
+            "mapCrs": "EPSG:3857",
+            "bbox":
+            {
+                "crs": "EPSG:4326",
+                "bounds": [-180.0, -85.0511288, 180.0, 85.0511288]
+            },
+            "initialBbox":
+            {
+                "crs": "EPSG:4326",
+                "bounds": [5.1581972, 51.0494043, 5.2642886, 51.1678204]
+            },
+            "additionalMouseCrs": ["EPSG:3857"],
+            "sublayers": [
+            {
+                "name": "Afschot wild zwijn (Benaderde locatie)",
+                "title": "Afschot wild zwijn (Benaderde locatie)",
+                "visibility": true,
+                "queryable": true,
+                "displayField": "datum",
+                "expanded": true,
+                "opacity": 255,
+                "bbox":
+                {
+                    "crs": "EPSG:4326",
+                    "bounds": [5.161304900073087, 51.08294610417852, 5.244012228193033, 51.14521769493783]
+                }
+            },
+            {
+                "name": "Melding wild zwijn 2022(Benaderde locatie)",
+                "title": "Melding wild zwijn 2022(Benaderde locatie)",
+                "visibility": true,
+                "queryable": true,
+                "displayField": "datum",
+                "expanded": true,
+                "opacity": 255,
+                "bbox":
+                {
+                    "crs": "EPSG:4326",
+                    "bounds": [5.209397361099724, 51.123257968216784, 5.2096341723444946, 51.12352220548747]
+                }
+            },
+            {
+                "name": "Melding wild zwijn niet bevestigd",
+                "title": "Melding wild zwijn niet bevestigd",
+                "visibility": false,
+                "queryable": true,
+                "displayField": "datum",
+                "expanded": true,
+                "opacity": 255,
+                "bbox":
+                {
+                    "crs": "EPSG:4326",
+                    "bounds": [5.15407597, 51.067808740000004, 5.232439929999999, 51.15586186]
+                }
+            },
+            {
+                "name": "Schade wild zwijn",
+                "title": "Schade wild zwijn",
+                "visibility": false,
+                "queryable": true,
+                "displayField": "datum",
+                "expanded": true,
+                "opacity": 255,
+                "bbox":
+                {
+                    "crs": "EPSG:4326",
+                    "bounds": [5.201626269228671, 51.052423921463074, 5.2233541944532975, 51.12599650229029]
+                }
+            },
+            {
+                "name": "Ongeval wild zwijn",
+                "title": "Ongeval wild zwijn",
+                "visibility": false,
+                "queryable": true,
+                "displayField": "datum",
+                "expanded": true,
+                "opacity": 255,
+                "bbox":
+                {
+                    "crs": "EPSG:4326",
+                    "bounds": [5.220750092660812, 51.06154097219018, 5.221715519414491, 51.092067267288975]
+                }
+            },
+            {
+                "name": "Gevonden kadavers wild zwijn",
+                "title": "Gevonden kadavers wild zwijn",
+                "visibility": false,
+                "queryable": true,
+                "displayField": "datum",
+                "expanded": true,
+                "opacity": 255,
+                "bbox":
+                {
+                    "crs": "EPSG:4326",
+                    "bounds": [5.165019301472136, 51.057390171997824, 5.165019301472136, 51.057390171997824]
+                }
+            },
+            {
+                "name": "Locatie slachtafval",
+                "title": "Locatie slachtafval",
+                "visibility": true,
+                "queryable": true,
+                "displayField": "adres",
+                "expanded": true,
+                "opacity": 255,
+                "bbox":
+                {
+                    "crs": "EPSG:4326",
+                    "bounds": [5.2186795, 51.0511231, 5.2186795, 51.0511231]
+                }
+            },
+            {
+                "name": "Drukjacht",
+                "title": "Drukjacht",
+                "visibility": true,
+                "queryable": true,
+                "displayField": "datum",
+                "expanded": true,
+                "opacity": 255,
+                "bbox":
+                {
+                    "crs": "EPSG:4326",
+                    "bounds": [-180.0, -85.0511288, 180.0, 85.0511288]
+                }
+            },
+            {
+                "name": "Reddingspunten Limburg",
+                "title": "Reddingspunten Limburg",
+                "visibility": false,
+                "queryable": true,
+                "displayField": "name",
+                "expanded": true,
+                "opacity": 255,
+                "bbox":
+                {
+                    "crs": "EPSG:4326",
+                    "bounds": [4.883250019999999, 49.87750004, 5.987583379999999, 51.427499960000006]
+                }
+            },
+            {
+                "name": "Werkinggebied Wildbeheereenheden Informatie Vlaanderen",
+                "title": "Werkinggebied Wildbeheereenheden Informatie Vlaanderen",
+                "visibility": false,
+                "queryable": true,
+                "displayField": "wbenaam",
+                "expanded": true,
+                "opacity": 255,
+                "bbox":
+                {
+                    "crs": "EPSG:4326",
+                    "bounds": [2.219912977666277, 50.60559922423423, 6.246667924363672, 51.58688572690726]
+                }
+            },
+            {
+                "name": "Faunabeheerzone wild zwijn",
+                "title": "Faunabeheerzone wild zwijn",
+                "visibility": true,
+                "queryable": true,
+                "displayField": "fbz",
+                "expanded": true,
+                "opacity": 255,
+                "bbox":
+                {
+                    "crs": "EPSG:4326",
+                    "bounds": [2.21926685, 50.592411559999995, 6.273010249999999, 51.57814364]
+                }
+            },
+            {
+                "name": "Melding wild zwijn 2021(Benaderde locatie)",
+                "title": "Melding wild zwijn 2021(Benaderde locatie)",
+                "visibility": true,
+                "queryable": true,
+                "displayField": "datum",
+                "expanded": true,
+                "opacity": 255,
+                "bbox":
+                {
+                    "crs": "EPSG:4326",
+                    "bounds": [5.182533368814658, 51.008756785693706, 5.25721902806078, 51.135601652475586]
+                }
+            },
+            {
+                "name": "Melding wild zwijn 2020(Benaderde locatie)",
+                "title": "Melding wild zwijn 2020(Benaderde locatie)",
+                "visibility": false,
+                "queryable": true,
+                "displayField": "datum",
+                "expanded": true,
+                "opacity": 255,
+                "bbox":
+                {
+                    "crs": "EPSG:4326",
+                    "bounds": [5.1053532210714305, 51.00490918611453, 5.303822124129152, 51.177925247846446]
+                }
+            },
+            {
+                "name": "Melding wild zwijn 2016 tem 2019(Benaderde locatie)",
+                "title": "Melding wild zwijn 2016 tem 2019(Benaderde locatie)",
+                "visibility": false,
+                "queryable": true,
+                "displayField": "datum",
+                "expanded": true,
+                "opacity": 255,
+                "bbox":
+                {
+                    "crs": "EPSG:4326",
+                    "bounds": [5.151117164981018, 51.05731038538837, 5.299661765591916, 51.13574642386157]
+                }
+            },
+            {
+                "name": "Melding globaal wild zwijn (WZ) bevestigd (Benaderde locatie)",
+                "title": "Melding globaal wild zwijn (WZ) bevestigd (Benaderde locatie)",
+                "visibility": false,
+                "queryable": true,
+                "displayField": "datum",
+                "expanded": true,
+                "opacity": 255,
+                "bbox":
+                {
+                    "crs": "EPSG:4326",
+                    "bounds": [5.1053532210714305, 51.00490918611453, 5.303822124129152, 51.177925247846446]
+                }
+            }],
+            "expanded": true,
+            "backgroundLayers": [
+            {
+                "name": "mapnik",
+                "printLayer": "qgiscloud_print_osm",
+                "visibility": true
+            },
+            {
+                "name": "Aerial"
+            },
+            {
+                "name": "Road"
+            }],
+            "legendUrl": "https://qgiscloud.com/Winabedgb/QField_everzwijn_WBEDGB_2022_cloud/wms",
+            "featureInfoUrl": "https://qgiscloud.com/Winabedgb/QField_everzwijn_WBEDGB_2022_cloud/wms",
+            "infoFormats": ["text/plain", "text/html", "text/xml", "application/vnd.ogc.gml", "application/vnd.ogc.gml/3.1.1"],
+            "availableFormats": ["image/jpeg", "image/png", "image/png; mode=16bit", "image/png; mode=8bit", "image/png; mode=1bit"],
+            "searchProviders": ["coordinates", "nominatim"],
+            "printUrl": "https://qgiscloud.com/Winabedgb/QField_everzwijn_WBEDGB_2022_cloud/wms",
+            "print": [
+            {
+                "name": "Outprint",
+                "map":
+                {
+                    "name": "map0",
+                    "width": 297.0,
+                    "height": 210.0
+                }
+            }],
+            "mapTips": null,
+            "editConfig":
+            {},
+            "thumbnail": "img/mapthumbs/default.jpg"
+        }],
+        "subdirs": [],
+        "defaultTheme": "QField_everzwijn_WBEDGB_2022_cloud",
+        "defaultScales": [400000000, 200000000, 100000000, 50000000, 25000000, 10000000, 5000000, 2000000, 1000000, 400000, 200000, 80000, 40000, 20000, 10000, 8000, 6000, 4000, 2000, 1000, 500, 250, 100],
+        "defaultPrintResolutions": [150, 300, 600],
+        "defaultPrintGrid": null,
+        "backgroundLayers": [
+        {
+            "name": "Road",
+            "title": "Bing Road",
+            "type": "bing",
+            "source": "bing",
+            "thumbnail": "img/mapthumbs/Road.jpg",
+            "apiKey": "Ap3eFRefFd94_D4cqsicw-Fk1-d4kRat9pstTO4oo_i9anyUqrfQcqL9Ew9CJahg",
+            "attribution":
+            {
+                "Title": "Bing Maps Terms of Use",
+                "OnlineResource": "http://www.microsoft.com/maps/product/terms.html"
+            }
+        },
+        {
+            "name": "Aerial",
+            "title": "Bing Aerial",
+            "type": "bing",
+            "source": "bing",
+            "thumbnail": "img/mapthumbs/Aerial.jpg",
+            "apiKey": "Ap3eFRefFd94_D4cqsicw-Fk1-d4kRat9pstTO4oo_i9anyUqrfQcqL9Ew9CJahg",
+            "attribution":
+            {
+                "Title": "Bing Maps Terms of Use",
+                "OnlineResource": "http://www.microsoft.com/maps/product/terms.html"
+            }
+        },
+        {
+            "name": "mapnik",
+            "title": "Open Street Map",
+            "type": "osm",
+            "source": "osm",
+            "thumbnail": "./assets/qwc2/img/mapthumbs/mapnik.jpg",
+            "attribution":
+            {
+                "Title": "\u00a9 OpenStreetMap contributors",
+                "OnlineResource": "https://www.openstreetmap.org/copyright"
+            }
+        }]
+    }
+}

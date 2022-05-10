@@ -1,0 +1,333 @@
+{
+  "locale": "en-US",
+  "translationsPath": "https://assets.qgiscloud.com/assets/qwc2/translations",
+  "assetsPath": "https://assets.qgiscloud.com/assets/./qwc2",
+  "urlPositionFormat": "extent",
+  "urlPositionCrs": "EPSG:3857",
+  "omitUrlParameterUpdates": false,
+  "preserveExtentOnThemeSwitch": true,
+  "preserveBackgroundOnThemeSwitch": true,
+  "preserveNonThemeLayersOnThemeSwitch": true,
+  "storeAllLayersInPermalink": false,
+  "allowReorderingLayers": false,
+  "preventSplittingGroupsWhenReordering": false,
+  "allowLayerTreeSeparators": false,
+  "allowRemovingThemeLayers": false,
+  "globallyDisableDockableDialogs": false,
+  "searchThemes": false,
+  "allowAddingOtherThemes": false,
+  "allowFractionalZoom": false,
+  "localeAwareNumbers": false,
+  "identifyTool": "Identify",
+  "wmsDpi": 96,
+  "wmsHidpi": true,
+  "qgisServerVersion": 3,
+  "defaultFeatureStyle": {
+    "strokeColor": [255, 140, 0, 1],
+    "strokeWidth": 2,
+    "fillColor": [255, 140, 0, 0.2],
+    "circleRadius": 8,
+    "textFill": "black",
+    "textStroke": "white",
+    "textFont": "11pt sans-serif"
+  },
+  "projections": [
+    {
+      "code": "EPSG:3857",
+      "proj": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0 +lon_0=0 +x_0=0 +y_0=0 +k=1 +units=m +nadgrids=@null +wktext +no_defs",
+      "label": "WGS 84 / Pseudo Mercator"
+    }
+  ],
+  "plugins": {
+    "mobile": [
+      {
+        "name": "Map",
+        "cfg": {
+          "mapOptions": {
+            "zoomDuration": 250,
+            "enableRotation": true
+          },
+          "toolsOptions": {
+            "OverviewSupport": {
+              "tipLabel": "Overview"
+            },
+            "LocateSupport": {
+              "keepCurrentZoomLevel": true,
+              "startupMode": "DISABLED"
+            },
+            "ScaleBarSupport": {
+              "units": "metric"
+            }
+          }
+        }
+      },
+      {
+        "name": "HomeButton",
+        "cfg": {
+          "position": 2
+        }
+      },
+      {
+        "name": "LocateButton",
+        "cfg": {
+          "position": 1
+        }
+      },
+      {
+        "name": "BackgroundSwitcher",
+        "cfg": {
+          "position": 0
+        }
+      },
+      {
+        "name": "TopBar",
+        "cfg": {
+          "logoUrl": "https://qgiscloud.com/",
+          "menuItems": [
+            {"key": "LayerTree", "icon": "layers"},
+            {"key": "Tools", "icon": "tools", "subitems": [
+
+              {"key": "Measure", "icon": "measure"}
+            ]},
+            {"key": "Print", "icon": "print"}
+          ],
+          "searchOptions": {
+            "minScaleDenom": 1000,
+            "showProviderSelection": true,
+            "providerSelectionAllowAll": true,
+            "zoomToLayers": false,
+            "showProvidersInPlaceholder": false
+          },
+          "appMenuClearsTask": true,
+          "appMenuFilterField": false,
+          "appMenuVisibleOnStartup": false
+        }
+      },
+      {
+        "name": "Measure",
+        "cfg": {
+          "showMeasureModeSwitcher": true
+        }
+      },
+      {
+        "name": "Identify",
+        "cfg": {
+          "params": {
+            "FI_POINT_TOLERANCE": 32,
+            "FI_LINE_TOLERANCE": 16,
+            "FI_POLYGON_TOLERANCE": 8,
+            "feature_count": 20,
+            "region_feature_count": 100
+          },
+          "enableExport": false,
+          "longAttributesDisplay": "ellipsis",
+          "displayResultTree": true,
+          "featureInfoReturnsLayerName": true
+        }
+      },
+      {
+        "name": "Print",
+        "cfg": {
+          "inlinePrintOutput": false,
+          "printExternalLayers": true,
+          "gridInitiallyEnabled": false
+        }
+      },
+      {
+        "name": "MapCopyright"
+      },
+      {
+        "name": "LayerTree",
+        "cfg": {
+          "enableLegendPrint": false,
+          "enableServiceInfo": false,
+          "showLegendIcons": true,
+          "showRootEntry": true,
+          "showQueryableIcon": true,
+          "allowMapTips": false,
+          "allowCompare": false,
+          "allowImport": false,
+          "groupTogglesSublayers": false,
+          "grayUnchecked": false,
+          "layerInfoWindowSize": {"width": 480, "height": 400},
+          "bboxDependentLegend": false,
+          "scaleDependentLegend": false
+        },
+        "mapClickAction": "unset"
+      },
+      {
+        "name": "StartupMarker",
+        "cfg": {
+          "removeMode": "onclickonmarker"
+        }
+      }
+    ],
+    "desktop": [
+      {
+        "name": "Map",
+        "cfg": {
+          "mapOptions": {
+            "zoomDuration": 250,
+            "enableRotation": true
+          },
+          "toolsOptions": {
+            "OverviewSupport": {
+              "tipLabel": "Overview"
+            },
+            "LocateSupport": {
+              "keepCurrentZoomLevel": true,
+              "stopFollowingOnDrag": true,
+              "startupMode": "DISABLED"
+            },
+            "ScaleBarSupport": {
+              "units": "metric"
+            }
+          },
+          "swipeGeometryTypeBlacklist": [],
+          "swipeLayerNameBlacklist": ["*_noswipe"]
+        }
+      },
+      {
+        "name": "TaskButton",
+        "cfg": {
+          "position": 5,
+          "task": "LayerTree",
+          "icon": "list-alt"
+        }
+      },
+      {
+        "name": "HomeButton",
+        "cfg": {
+          "position": 4
+        }
+      },
+      {
+        "name": "LocateButton",
+        "cfg": {
+          "position": 3
+        }
+      },
+      {
+        "name": "ZoomIn",
+        "cfg": {
+          "position": 2
+        }
+      },
+      {
+        "name": "ZoomOut",
+        "cfg": {
+          "position": 1
+        }
+      },
+      {
+        "name": "BackgroundSwitcher",
+        "cfg": {
+          "position": 0
+        }
+      },
+      {
+        "name": "TopBar",
+        "cfg": {
+          "logoSrc": "./assets/./qwc2/img/logo-free.svg",
+          "logoUrl": "https://qgiscloud.com/",
+          "menuItems": [
+            {"key": "LayerTree", "icon": "layers"},
+            {"key": "Tools", "icon": "tools", "subitems": [
+
+              {"key": "Measure", "icon": "measure"}
+            ]},
+            {"key": "Print", "icon": "print"}
+          ],
+          "searchOptions": {
+            "minScaleDenom": 1000,
+            "showProviderSelection": true,
+            "providerSelectionAllowAll": true,
+            "zoomToLayers": false,
+            "showProvidersInPlaceholder": false
+          },
+          "appMenuClearsTask": true,
+          "appMenuFilterField": false,
+          "appMenuVisibleOnStartup": false
+        }
+      },
+      {
+        "name": "BottomBar",
+        "cfg": {
+          "viewertitleUrl": "/",
+          "viewertitleUrlTarget": "_blank",
+          "termsUrl": "/en/pages/tos",
+          "termsUrlTarget": "_blank"
+        }
+      },
+      {
+        "name": "Measure",
+        "cfg": {
+          "showMeasureModeSwitcher": true
+        }
+      },
+      {
+        "name": "LayerTree",
+        "cfg": {
+          "enableLegendPrint": false,
+          "enableServiceInfo": false,
+          "showLegendIcons": true,
+          "showRootEntry": true,
+          "showQueryableIcon": true,
+          "allowMapTips": false,
+          "allowCompare": false,
+          "allowImport": false,
+          "groupTogglesSublayers": true,
+          "grayUnchecked": false,
+          "layerInfoWindowSize": {"width": 480, "height": 400},
+          "bboxDependentLegend": false,
+          "scaleDependentLegend": false,
+          "showToggleAllLayersCheckbox": true
+        },
+        "mapClickAction": "identify"
+      },
+      {
+        "name": "Identify",
+        "cfg": {
+          "params": {
+            "FI_POINT_TOLERANCE": 16,
+            "FI_LINE_TOLERANCE": 8,
+            "FI_POLYGON_TOLERANCE": 4,
+            "feature_count": 20,
+            "region_feature_count": 100
+          },
+          "enableExport": false,
+          "longAttributesDisplay": "ellipsis",
+          "displayResultTree": true,
+          "featureInfoReturnsLayerName": true,
+          "initialWidth": 750,
+          "initialHeight": 600,
+          "initialX": 0,
+          "initialY": 0
+        }
+      },
+      {
+        "name": "MapTip"
+      },
+      {
+        "name": "Print",
+        "cfg": {
+          "inlinePrintOutput": false,
+          "printExternalLayers": true,
+          "gridInitiallyEnabled": false
+        }
+      },
+      {
+        "name": "MapCopyright",
+        "cfg": {
+            "showThemeCopyrightOnly": false
+        }
+      },
+      {
+        "name": "StartupMarker",
+        "cfg": {
+          "removeMode": "onclickonmarker"
+        }
+      }
+    ]
+  }
+}
